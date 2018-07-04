@@ -2,6 +2,6 @@ version: '3.6'
 services:
   nginx:
     build: ./
-    image: emyller/nginx-400:latest
+    image: emyller/nginx-400:{$TAG:-latest}
     ports:
       - 8080:80
