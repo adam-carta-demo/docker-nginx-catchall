@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  nginx:
+    build: ./
+    image: emyller/nginx-400:latest
+    ports:
+      - 8080:80
